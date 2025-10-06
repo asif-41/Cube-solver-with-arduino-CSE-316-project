@@ -1,0 +1,59 @@
+If the faces of a cube are as follows:
+
+U:    
+Y B R
+O W G
+G B R
+
+D:
+O W R
+Y G B
+B Y R
+
+L:
+W W O
+B O G
+G W R
+
+R:
+B B Y
+G O W
+Y O G
+
+B:
+O Y R
+W O B
+G R W
+
+F:
+O W R
+Y B G
+W Y R
+
+
+Then give input columnwise for a face. Face sequence will be (UDLRBF)
+sample input for the above scenario:
+
+YOGBWBRGR-OYBWGYRBR-WBGWOWOGR-BGYBOOYWG-OWGYORRBW-OYWWBYRGR
+
+
+
+MANUAL INPUTS:
+ROTATIONS:
+CLOCK WISE: (UP TO DOWN)
+
+LEFT SIDE : L or (0L)
+CENTER : 1L
+RIGHT SIDE : 2L
+UP SIDE: U or (0U)
+DOWN SIDE: 2U
+
+ANTICLOCKWISE: (DOWN TO UP)
+
+LEFT SIDE: 2R
+CENTER : 1R
+RIGHT SIDE: R or (0R)
+UP SIDE: 2D
+DOWN SIDE: D or (0D)
+
+

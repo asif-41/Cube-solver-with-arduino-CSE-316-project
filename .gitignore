@@ -1,0 +1,37 @@
+# Arduino compiled files
+# *.hex
+# *.elf
+*.o
+*.obj
+
+# IDE files
+.vscode/
+.vs/
+.idea/
+
+# Build directories
+build/
+bin/
+
+# Libraries
+libraries/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Log files
+*.log
+
+# Circuit simulation files
+*.sim
+*.dsn
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test data
+test_data/
+calibration/
